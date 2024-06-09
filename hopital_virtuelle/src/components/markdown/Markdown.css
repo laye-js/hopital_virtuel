@@ -1,0 +1,23 @@
+.markdown-container>a {
+    color: #D3D3D3;
+    transition: color 300ms;
+}
+
+.markdown-container>a:hover {
+    color: #808080;
+}
+
+.markdown-container>div, .markdown-container>p, .markdown-container>ul>li {
+    text-align: left;
+    font-size: var(--font-size-lg);
+    line-height: 1.875rem;
+    letter-spacing: 0;
+}
+
+.markdown-container>div, .markdown-container>p {
+    margin-bottom: 23px;
+}
+
+.markdown-container>ul>li {
+    padding: 0px 0px;
+}

@@ -1,0 +1,20 @@
+.site-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  overflow-x: hidden;
+}
+
+.container-3d {
+  visibility: hidden;
+  opacity: 0
+}
+
+.active {
+  transition: visibility 1s, opacity 1s linear;
+  visibility: visible;
+  opacity: 1;
+}
+

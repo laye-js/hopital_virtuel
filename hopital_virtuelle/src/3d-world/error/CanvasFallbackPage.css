@@ -1,0 +1,30 @@
+.canvas-fallback-page-wrapper {
+  z-index: 700;
+  position: fixed;
+  top: 50px;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.performance-warning {
+  position: fixed;
+  bottom: 50px;
+  right: 100px;
+  font-size: var(--font-size-xxs);
+  font-style: italic;
+  background-color: #ffffff;
+}
+
+.canvas-fallback-image-container img {
+  height: 100vh;
+  animation: imageFadeIn 3s;
+  -webkit-animation: imageFadeIn 3s;
+  -moz-animation: imageFadeIn 3s;
+  -o-animation: imageFadeIn 3s;
+  -ms-animation: imageFadeIn 3s;
+}

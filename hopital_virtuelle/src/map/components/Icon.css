@@ -1,0 +1,19 @@
+.marker-icon {
+  background-color: #cfd8dc;
+  border: 3px solid #eceff1;
+  box-sizing: border-box;
+  padding: 10px 0;
+  width: 180px;
+  text-align: center;
+  color: #424242;
+  font-size: var(--font-size-lg);
+  user-select: none;
+  position: relative;
+  transform: translateY(-5%) translateX(50%);
+}
+
+.marker::before {
+  right: 0;
+  margin-right: -12px;
+  border-left-color: #ffffff;
+}

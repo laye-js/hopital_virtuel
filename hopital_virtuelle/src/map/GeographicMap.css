@@ -1,0 +1,14 @@
+.map-container {
+  flex: 1;
+  position: fixed;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  height: calc(100% - 50px);
+}
+
+.map {
+  background-color: #999999;
+  height: 100%;
+  width: 100%;
+}

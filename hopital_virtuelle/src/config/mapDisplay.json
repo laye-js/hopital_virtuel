@@ -1,0 +1,23 @@
+{
+  "centre": {
+    "latitude": 14.6919,
+    "longitude": -17.4692
+  },
+  "bounds": {
+    "southWest": [
+      14.6810, 
+      -17.4790
+    ],
+    "northEast": [
+      14.7020,
+      -17.4590
+    ]
+  },
+  "zoom": {
+    "zoomSnap": 0.25,
+    "default": 14, 
+    "minZoomCountry": 10, 
+    "minZoomContinent": 5, 
+    "maxZoomCityBlock": 18 
+  }
+}

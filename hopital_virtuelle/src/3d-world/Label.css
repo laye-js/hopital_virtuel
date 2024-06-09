@@ -1,0 +1,55 @@
+.line {
+  position: absolute;
+  height: 32px;
+  bottom: 0;
+  left: 0px;
+  border-left: 2px solid white;
+  -moz-transform: skew(-35deg);
+  -webkit-transform: skew(-35deg);
+  transform: skew(-35deg);
+}
+
+.tag {
+  font-size: var(--font-size-xs);
+  text-transform: uppercase;
+  background: white;
+  color: #202035;
+  white-space: nowrap;
+  cursor: pointer;
+  opacity: 0.7;
+
+  position: absolute;
+  transform: translate3d(0px, -60px, 10px);
+  padding: 8px 10px 6px 10px;
+  border-radius: 25px;
+  transition: all 0.3s ease-out;
+  user-select: none;
+}
+
+.tag.active {
+  transition: all 0.3s ease-out;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.label-wrappper-enter {
+  opacity: 0;
+}
+
+.label-wrappper-enter-active {
+  opacity: 0.7;
+  transform: translateX(0);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.label-wrappper-exit {
+  opacity: 0.7;
+  transition: opacity 300ms;
+
+}
+
+.label-wrappper-exit-active {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 300ms, transform 300ms;
+}

@@ -1,0 +1,25 @@
+header {
+    z-index: 450;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.scroller-progress-bar {
+    height: 10px;
+    background-color: red;
+    transform-origin: top left;
+    transition: transform 1s ease-in-out;
+}
+
+header label {
+    display: inline-block;
+    color: white;
+    font-style: normal;
+    font-size: var(--font-size-3xl);
+}
+
+.hamburger {
+    display: none
+}

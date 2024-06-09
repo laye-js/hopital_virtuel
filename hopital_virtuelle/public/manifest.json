@@ -1,0 +1,10 @@
+{
+  "short_name": "Centre Hospitalier de fann",
+  "name": "Centre Hospitalier de fann Aotearoa New Zealand",
+  "description": "A visual investigation into historic child abuse in state care at Lake Alice's Child and Adolescent Unit.",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
